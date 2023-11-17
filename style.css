@@ -93,7 +93,7 @@ nav.navCabecalho ul{
 div.apresentacao{
   height: 100vh;
   background-color: rgba(0,0,0,0);
-  background: url("/img/showcase.webp") center;
+  background: url("./img/showcase.webp") center;
 }
 
 div.apresentacaoTexto{
