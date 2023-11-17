@@ -1,0 +1,188 @@
+:root {
+	--default-green: #1db954;
+	--light-green: #1ed760;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.btn{
+  background-color: var(--default-green);
+  color: white;
+  padding: 1.8rem;
+  outline: none;
+  border: none;
+
+}
+.btn:hover {
+	background: var(--light-green);
+	cursor: pointer;
+}
+
+.btn-link:hover{
+  cursor: pointer;
+  color: #1db954;
+}
+
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+.container{
+}
+
+div.cabecalho{
+  background-color: rgba(0, 0, 0, 0.6);
+	position: fixed;
+  width: 100%;
+  top: 0;
+}
+navbar.navBarCabecalho{
+  margin: 0 auto;
+  max-width: 1800px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.9em;
+
+}
+navbar.navBarCabecalho nav ul {
+  list-style-type: none;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+}
+
+navbar.navBarCabecalho nav ul li {
+  padding: 0 20px;
+  transition: all 300ms ease;
+}
+
+navbar .navBarCabecalho nav  ul li:hover {
+	color: #1db954;
+	cursor: pointer;
+}
+navbar.navBarCabecalho nav > ul li:nth-child(3){
+  border-right: 1px solid white;
+}
+
+navbar.navBarCabecalho nav ul li a{
+  text-decoration: none;
+  color: white;
+  font-size: 1.2em;
+}
+nav.navCabecalho{
+  display: flex;
+  margin-left: 0.9em;
+}
+navbar.navBarCabecalho img{
+    width: 100%;
+    height: 40px;
+
+}
+navbar.navBarCabecalho div.logoCabecalho{
+  max-width: 25%;
+}
+nav.navCabecalho ul{
+  margin-right: 1em;
+}
+
+div.apresentacao{
+  height: 100vh;
+  background-color: rgba(0,0,0,0);
+  background: url("/img/showcase.webp") center;
+}
+
+div.apresentacaoTexto{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  color: white;
+}
+
+div.apresentacaoTexto h1{
+  font-size: 5em;
+}
+div.apresentacaoTexto p{
+  font-size: 1.3em;
+  margin: 12px 0;
+}
+
+main  .apresentacao .btn{
+  cursor: pointer;
+  border-radius: 5%;
+  font-size: 1.2em;
+}
+footer{
+  background-color: black;
+  color: white;
+  padding: 1.5%;
+  width: 100%;
+}
+footer .footer-cabecalho{
+  display: flex;
+  justify-content: space-between;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+footer .logo-footer{
+  max-width: 25em;
+}
+footer ul{
+  list-style-type: none;
+  line-height: 4.0;
+}
+
+footer img{
+  max-width: 150px;
+}
+
+footer .socials i{
+  font-size: 1.7rem;
+  margin-right: 0.9rem;
+  cursor: pointer;
+}
+
+footer .footer-rodape{
+  display: flex;
+  max-width: 900px;
+  margin: 0 auto;
+  justify-content:space-between;
+  align-items: end;
+  font-size: 0.75rem;
+  font-weight: bold;
+  color: #919496;
+}
+
+
+footer .footer-rodape .links-footer-rodape ul{
+  display: flex;
+}
+footer .footer-rodape .links-footer-rodape ul li{
+  margin-right: 10px;
+
+}
+
+footer .pais{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+
+}
+
+footer .pais p{
+  padding: 0.5em;
+
+}
+
+footer .pais  img{
+  max-width: 20pt;
+}
