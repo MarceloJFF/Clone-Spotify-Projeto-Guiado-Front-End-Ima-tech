@@ -17,3 +17,5 @@ Neste projeto, você terá a oportunidade de aprender e aplicar conceitos essenc
 Este projeto guiado é uma excelente oportunidade para você praticar suas habilidades de front-end e desenvolver um projeto realista e relevante para o mercado. Através dessa experiência, você consolidará seus conhecimentos e estará preparado para enfrentar desafios futuros no desenvolvimento web.
 
 ### Crie um Clone do Spotify com HTML & CSS
+link abaixo do github pages
+https://marcelojff.github.io/Clone-Spotify-Projeto-Guiado-Front-End-Ima-tech/
